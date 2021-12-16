@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .estilo{
+            border: solid 1px #000;
+        }
+    </style>
 </head>
 <body>
-    <h1>UM teste</h1>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 estilo">
+                    aqui é uma coluna 
+                </div>
+                <div class="col-4 estilo">
+                    2 colunas 
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
