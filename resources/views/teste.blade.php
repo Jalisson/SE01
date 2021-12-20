@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('conteudo')
+@section('navegacao')
     
 <div class="menu">
     <img src="" alt="" sizes="" srcset="">  
