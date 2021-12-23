@@ -13,11 +13,22 @@
     <title>Hello, world!</title>
   </head>
   <body>
-        @yield('navegacao')
+              
 
-        @yield('conteudo')
+      <section>
+        <div class="row">
+            <div class="painel estilo">
+                @include('header')
+                <a href="teste">Teste</a>
+            </div>
+            <div class="conteudo estilo">
+              @yield('conteudo')
+            </div>
+            </div>     
+        </div>
+    </section>
 
-        @yield('footer')
+
 
 
 

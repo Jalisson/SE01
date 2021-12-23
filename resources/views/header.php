@@ -1,7 +1,4 @@
-@extends('layout.app')
-
-@section('navegacao')
-    
+  
 <div class="menu">
     <img src="" alt="" sizes="" srcset="">  
     <ul>
@@ -13,4 +10,3 @@
     </ul>
 </div>
     
-@endsection
